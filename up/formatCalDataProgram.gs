@@ -1,3 +1,26 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+function test(){
+    formatCalData()
+}
+/** formatCalData関数
+ *  カレンダーデータを整形して返す
+ * 
+ *  @param { string } calendarId
+ *  @param { number } targetYear
+ *  @param { number } targetMonth
+ */ 
 function formatCalData(calendarId, targetYear, targetMonth){
     // 定数・変数の定義：カレンダーIDは安全のためハードコーディングせずスクリプトプロパティに載せておく
     calendarId = PropertiesService.getScriptProperties().getProperty("calendar-01");
